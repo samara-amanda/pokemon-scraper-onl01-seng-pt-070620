@@ -28,4 +28,4 @@ class Pokemon
     database_connection.execute("UPDATE pokemon SET hp = ? WHERE id = ?", new_hp, @id)
   end
 
-end	end
+end
